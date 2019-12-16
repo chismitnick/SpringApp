@@ -3,17 +3,15 @@ package com.example.demo.Model;
 import java.util.UUID;
 
 /*
-* Model class implementation, The aim of the project is to implement the project using N-tier architecture
-* to enforce The separation of concerns technique
-*
-*
-*
-* */
+ * Model class implementation, The aim of the project is to implement the project using N-tier architecture
+ * to enforce The separation of concerns technique
+ * csamiselo@github December 2019
+ * */
 
 public class Student {
     private final UUID id;
     private final String first_name;
-    private  final String last_name;
+    private final String last_name;
     private final String course;
 
     public Student(UUID id, String first_name, String last_name, String course) {
