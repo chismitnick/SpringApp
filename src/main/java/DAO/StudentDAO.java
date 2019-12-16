@@ -4,6 +4,7 @@ package DAO;
 //Defines in memory database actions and methods
 // Operations include inserting,selecting,deleting,updating and listing all the students in the database
 // csamiselo@github.com Dec 2019
+
 import com.example.demo.Model.Student;
 
 import java.util.List;
@@ -20,7 +21,7 @@ public interface StudentDAO {
     List<Student> selectAllStudents();
 
     //Update all students in the database
-    int updateStudentById(UUID studentId,Student newStudent);
+    int updateStudentById(UUID studentId, Student newStudent);
 
     //Delete students from the database
     int deleteStudentById(UUID studentId);
