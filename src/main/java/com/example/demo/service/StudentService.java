@@ -1,7 +1,7 @@
 package com.example.demo.service;
 
-import DAO.StudentDAO;
-import com.example.demo.Model.Student;
+import dao.StudentDAO;
+import com.example.demo.model.Student;
 
 import java.util.List;
 import java.util.UUID;

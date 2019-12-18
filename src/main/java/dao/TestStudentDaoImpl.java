@@ -1,9 +1,11 @@
-package DAO;
+package dao;
 
-import com.example.demo.Model.Student;
+import com.example.demo.model.Student;
+import org.springframework.stereotype.Repository;
 
 import java.util.*;
-
+// needs to be injected into service class
+@Repository("TestDao")
 public class TestStudentDaoImpl implements StudentDAO {
 
     private final Map<UUID, Student> database;

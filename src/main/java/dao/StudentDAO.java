@@ -1,11 +1,11 @@
-package DAO;
+package dao;
 
 // Data Access Object class: Data Access Objects are implemented using  interfaces
 //Defines in memory database actions and methods
 // Operations include inserting,selecting,deleting,updating and listing all the students in the database
 // csamiselo@github.com Dec 2019
 
-import com.example.demo.Model.Student;
+import com.example.demo.model.Student;
 
 import java.util.List;
 import java.util.UUID;
