@@ -12,7 +12,7 @@ import java.util.UUID;
 
 public interface StudentDAO {
     //insert student into the database
-    void insertNewStudent(UUID studentId, Student student);
+    int insertNewStudent(UUID studentId, Student student);
 
     //select a student from the database
     Student selectStudentById(UUID studentId);
@@ -21,7 +21,7 @@ public interface StudentDAO {
     List<Student> selectAllStudents();
 
     //Update all students in the database
-    int updateStudentById(UUID studentId, Student newStudent);
+    int updateStudentById(UUID studentId, Student studentUpdate);
 
     //Delete students from the database
     int deleteStudentById(UUID studentId);
