@@ -1,9 +1,9 @@
-package com.example.demo.Model;
+package com.example.demo.model;
 
 import java.util.UUID;
 
 /*
- * Model class implementation, The aim of the project is to implement the project using N-tier architecture
+ * model class implementation, The aim of the project is to implement the project using N-tier architecture
  * to enforce The separation of concerns technique
  * csamiselo@github December 2019
  * */
